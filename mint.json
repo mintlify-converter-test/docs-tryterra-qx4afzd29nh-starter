@@ -1,91 +1,133 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "docs-tryterra",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/inverted.png",
+    "light": "/logo/regular.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#0088ff",
+    "light": "#007ae6",
+    "dark": "#0088ff",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#0088ff",
+      "to": "#007ae6"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Talk to Sales",
+      "url": "#"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get API Key",
+    "url": "#"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "buttonText": "Home",
+      "link": "/"
+    },
+    {
+      "buttonText": "Guides",
+      "link": "/docs"
+    },
+    {
+      "buttonText": "Recipes",
+      "link": "/recipes"
+    },
+    {
+      "buttonText": "API Reference",
+      "link": "/reference"
+    },
+    {
+      "buttonText": "Changelog",
+      "link": "/changelog"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "users",
+      "url": "https://tryterra.co/community"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://tryterra.co/blog"
     }
   ],
+  "modeToggle": {
+    "default": "dark"
+  },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "More Information",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "https://docs.tryterra.co/reference/v2",
+        "https://docs.tryterra.co/reference/integrations-1"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Generate a graph",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "https://docs.tryterra.co/docs/using-the-dashboard",
+        "https://docs.tryterra.co/docs/using-the-chatbot"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Stream Data",
       "pages": [
-        "api-reference/introduction"
+        "https://docs.tryterra.co/docs/using-the-websocket-api",
+        "https://docs.tryterra.co/docs/terra-streaming-protocol",
+        "https://docs.tryterra.co/docs/setup-websocket-server",
+        "https://docs.tryterra.co/docs/connect-stream",
+        "https://docs.tryterra.co/docs/stream-heart-rate-ios-sdk",
+        "https://docs.tryterra.co/docs/stream-heart-rate-android-sdk",
+        "https://docs.tryterra.co/docs/flutter-sdk",
+        "https://docs.tryterra.co/docs/wearos-sdk"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Connect with Unified API",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "https://docs.tryterra.co/docs/quickstart-1",
+        "https://docs.tryterra.co/docs/getting-started",
+        "https://docs.tryterra.co/docs/api-setup",
+        "https://docs.tryterra.co/docs/api-setup#choose-your-language",
+        "https://docs.tryterra.co/docs/set-up-javascript#choose-your-language",
+        "https://docs.tryterra.co/docs/unified-api-install-on-backend-java",
+        "https://docs.tryterra.co/docs/ruby-client",
+        "https://docs.tryterra.co/docs/postman",
+        "https://docs.tryterra.co/docs/authenticate-users",
+        "https://docs.tryterra.co/docs/authenticate-api",
+        "https://docs.tryterra.co/docs/building-your-own-ui",
+        "https://docs.tryterra.co/docs/authenticate-widget",
+        "https://docs.tryterra.co/docs/getting-data",
+        "https://docs.tryterra.co/docs/historical-data",
+        "https://docs.tryterra.co/docs/receiving-webhooks",
+        "https://docs.tryterra.co/docs/parsing-data",
+        "https://docs.tryterra.co/docs/event-types",
+        "https://docs.tryterra.co/docs/data-models",
+        "https://docs.tryterra.co/docs/mobile-setup",
+        "https://docs.tryterra.co/docs/unified-api-manage-integrations-ios",
+        "https://docs.tryterra.co/docs/unified-api-manage-integrations-android",
+        "https://docs.tryterra.co/docs/react-native-project",
+        "https://docs.tryterra.co/docs/unified-api-manage-integrations-flutter",
+        "https://docs.tryterra.co/docs/dashboard-settings",
+        "https://docs.tryterra.co/docs/add-your-team-members-1",
+        "https://docs.tryterra.co/docs/usage-statistics-1",
+        "https://docs.tryterra.co/docs/widget-customisation",
+        "https://docs.tryterra.co/docs/integration-fun-facts",
+        "https://docs.tryterra.co/docs/self-debugging"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "linkedin": "https://www.linkedin.com/company/terraapi",
+    "twitter": "https://twitter.com/TerraAPI",
+    "github": "https://github.com/tryterra"
   }
 }
